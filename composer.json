@@ -1,0 +1,15 @@
+{
+    "name": "vendor/absen",
+    "description": "Aplikasi Sistem Absen Sederhana",
+    "type": "project",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.28"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Angkykanni"
+        }
+    ],
+    "minimum-stability": "stable"
+}

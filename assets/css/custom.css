@@ -1,0 +1,90 @@
+/********** common setting **********/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body {
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 2.8rem !important;
+    font-weight: 700;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+span {
+    color: #50b3ff;
+}
+
+.cover {
+    margin-top: 50px;
+}
+
+.atlas-cta {
+    border-radius: 30px !important;
+    padding: 12px 30px !important;
+    font-weight: 700;
+    transition: .3s ease-in-out !important;
+}
+
+.atlas-cta:hover {
+    text-decoration: none;
+    transform: translateY(-5px);
+}
+
+.atlas-cta-wide {
+    width: 100%;
+}
+
+.cta-green {
+    background: #50b3ff;
+    color: #192440;
+}
+
+.cta-green:hover {
+    color: #ffffff;
+    background: #50b3ff;
+}
+
+.cta-blue {
+    background: #192440;
+    color: #ffffff;
+}
+
+.cta-blue:hover {
+    color: #ffffff;
+    background: #121a2e;
+}
+
+.cta-ghost {
+    border: 2px solid #192440 !important;
+    color: #192440;
+}
+
+.cta-ghost:hover {
+    color: #ffffff;
+    background: #121a2e;
+}
+
+#banner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+/********** RWD **********/
+@media (max-width: 575px) {
+    #banner h1 {
+        font-size: 3.6rem;
+    }
+}
